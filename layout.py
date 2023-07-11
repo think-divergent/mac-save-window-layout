@@ -131,7 +131,7 @@ def main():
 
     # save state
     if sys.argv[1].lower().startswith("s"):
-        save_config(current_state, config_id)
+        save_config(config_id)
         return
 
     # list all windows
